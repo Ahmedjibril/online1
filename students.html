@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>students details</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="js/bootstrap.min.js"></script>>
+</head>
+<body>
+<h1 class="text-danger text-center bg-black">STUDENTS FORM DETAILS</h1>
+
+
+<form action="" class="m-5 bg-info p-5">
+    <label for="fname" class="form-label mb-3" >FIRST NAME:</label>
+    <input type="text" id="fname" class="form-control mb-3" placeholder="Type your first name" required="required">
+
+    <label for="sname" class="form-label mb-3">SURNAME</label>
+    <input type="text" id="sname" class="form-control mb-3" placeholder="Type your surname" required="required">
+
+    <label for="email" class="form-label mb-3">EMAIL ADDRESS:</label>
+    <input type="email" id="email" class="form-control mb-3" placeholder=" eg:123@gmail.com" required="required">
+
+    <label for="password" class="form-label mb-3">PASSWORD</label>
+    <input type="password" id="password" class="form-control mb-3" placeholder="Type your password" required="required">
+
+    <p >CHOOSE YOUR FAVORITE GAME</p>
+<div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check1" name="football" value="something" checked >
+      <label class="form-check-label" for="check1">FOOTBALL</label>
+    </div>
+<div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option1" value="something" >
+      <label class="form-check-label" for="check1">BASKETBALL</label>
+    </div>
+<div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check3" name="option1" value="something">
+      <label class="form-check-label" for="check1">VALLEYBALL</label>
+    </div>
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check4" name="option1" value="something">
+      <label class="form-check-label" for="check1">RUGBY</label>
+    </div>
+        <p >CHOOSE YOUR BEST PROGRAMMING LANGUAGE</p>
+
+      <div class="form-check">
+  <input type="radio" class="form-check-input" id="radio1" name="optradio" value="python" checked>PYTHON
+  <label class="form-check-label" for="radio1"></label>
+</div>
+
+<div class="form-check">
+  <input type="radio" class="form-check-input" id="radio2" name="optradio" value="java"> JAVA
+  <label class="form-check-label" for="radio1"></label>
+</div>
+    <div class="form-check">
+  <input type="radio" class="form-check-input" id="radio3" name="optradio" value="jango"> JANGO
+  <label class="form-check-label" for="radio1"></label>
+</div>
+    <p>NATIONALITY</p>
+
+   <select class="form-select" enable>
+     <option>kenya</option>
+     <option>america</option>
+     <option>tanzania</option>
+     <option>russia</option>
+   </select>
+
+
+    <button type="submit" class="btn btn-primary mb-3 mx-auto d-block">Submit</button>
+    </form>
+</body>
+</html>
